@@ -1,8 +1,35 @@
-.grad-container {
-  color: hsl(234 21% 66% / 1);
-  background-color: white;
-   
-  background-image:linear-gradient(hsl(39 100% 46% / 1), hsl(39 100% 46% / 1) 5%, rgba(255, 255, 255, 0.477) 40%,rgba(255, 255, 255, 0.477) 60%, green), radial-gradient(circle at center ,rgba(0, 0, 255, 0.022) 15%, white 3%, white),
+export const links = [
+  {
+    href: `index.html`,
+    title: `INDEX`,
+    gradient: `linear-gradient(yellow, red);`,
+  },
+  {
+    href: `deep_ocean.html`,
+    title: `DEEP OCEAN`,
+    gradient: `linear-gradient(blue, black)`,
+  },
+  {
+    href: `sun.html`,
+    title: "SUN",
+    gradient: `linear-gradient(red, orange)`,
+  },
+  {
+    href: `green.html`,
+    title: "GREEN",
+    gradient: `linear-gradient(green, white)`,
+  },
+  {
+    href: `dotted.html`,
+    title: "DOTTED",
+    gradient: `radial-gradient(circle at center, blue 20%, white 30%, white);
+  background-repeat: repeat;
+  background-size: 20px 20px;`,
+  },
+  {
+    href: `india.html`,
+    title: "INDIA",
+    gradient: `linear-gradient(hsl(39 100% 46% / 1), hsl(39 100% 46% / 1) 5%, rgba(255, 255, 255, 0.477) 40%,rgba(255, 255, 255, 0.477) 60%, green), radial-gradient(circle at center ,rgba(0, 0, 255, 0.022) 15%, white 3%, white),
   linear-gradient(0deg, transparent 49.8%, rgb(0, 16, 163) 0.2%, transparent 50%),
   linear-gradient(15deg, transparent 49.8%, rgb(0, 16, 163) 0.2%, transparent 50%),
   linear-gradient(30deg, transparent 49.8%, rgb(0, 16, 163) 0.2%, transparent 50%),
@@ -27,13 +54,6 @@
   linear-gradient(315deg, transparent 49.8%, rgb(0, 16, 163) 0.2%, transparent 50%),
   linear-gradient(330deg, transparent 49.8%, rgb(0, 16, 163) 0.2%, transparent 50%),
   linear-gradient(345deg, transparent 49.8%, rgb(0, 16, 163) 0.2%, transparent 50%),
-  linear-gradient(360deg, transparent 49.8%, rgb(0, 16, 163) 0.2%, transparent 50%);
-  }
-
-#india {
- background-image:linear-gradient(hsl(39 100% 46% / 1), hsl(39 100% 46% / 1) 5%, rgba(255, 255, 255, 0.477) 40%,rgba(255, 255, 255, 0.477) 60%, green);
-}
-
-.grad-frame {
-  background-image: linear-gradient(orange, white , green);
-}
+  linear-gradient(360deg, transparent 49.8%, rgb(0, 16, 163) 0.2%, transparent 50%)`,
+  },
+];

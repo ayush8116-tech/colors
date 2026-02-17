@@ -1,9 +1,0 @@
-.grad-container, #dotted {
-  background-image: radial-gradient(circle at center, blue 20%, white 30%, white);
-  background-repeat: repeat;
-  background-size: 20px 20px;
-}
-
-.grad-frame {
-  background-color: rgb(0, 0, 255);
-}

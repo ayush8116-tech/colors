@@ -1,8 +1,0 @@
-.grad-container, #deep-ocean {
-  color: hsl(234 21% 66% / 1);
-  background-image: linear-gradient(blue, black);
-}
-
-.grad-frame {
-  background-color: hsl(240 73% 24% / 1);
-}
