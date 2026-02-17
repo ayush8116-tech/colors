@@ -1,0 +1,62 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.nav {
+  width: 20%;
+  height: 100vh;
+  background-color: rgb(192, 192, 192);
+  position: fixed;
+  overflow: auto;
+}
+
+.nav ul {
+  list-style: none;
+  height: 100%;
+}
+
+.nav div {
+  height: 100%;
+}
+
+.navigation {
+  border-bottom: 2px solid black;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.navigation:hover {
+  background-color: grey;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.grad-frame {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 20%;
+  height: 100vh;
+}
+
+.grad-container {
+  border-radius: 10px;
+  width: 80%;
+  height: 80%;
+}
+
+#deep-ocean:hover {
+  color: hsl(234 21% 66% / 1);
+  background-image: linear-gradient(blue, black);
+}
